@@ -1,0 +1,58 @@
+/*NAVBAR*/
+#login{
+    background-color:#F0E4F2;
+    border-radius:20px; 
+    color:black;
+}
+#signup{
+    background-color: black;
+    border-radius:20px; 
+    color:white;
+}
+.button{
+margin-left:60%;
+}
+#login,#signup{
+  margin-left: 10px;
+}
+
+/*MAIN*/
+.main{
+    height: 520px;
+    width: 100%;
+    background-color:rgba(242,204,143,0.2) ;
+}
+
+#img img{
+    height: 30%;
+}
+#img1{
+    margin: 5% 0% 5%;
+}
+#img2{
+    margin: 1px 14% ;
+}
+.btn-main{
+    background-color: #00B4D8;
+    color: white;
+    border-radius: 20px;
+    border:2px solid white;
+    padding: 10px;
+}
+.col-md-7{
+    margin-top: 8%;
+}
+.col-md-7 h5{
+    margin: 30px 0 30px;
+}
+/*CARDS*/
+.card{
+    margin-top: 10%;
+    background-color: #002855;
+    color: white;
+    border-radius: 20px;
+}
+.card img{
+    padding: 30px;
+    border-radius: 20px;
+}
