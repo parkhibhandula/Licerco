@@ -412,4 +412,6 @@
     // Appending list to license details
     licenses.appendChild(list);
     licenseDetails.appendChild(licenses);
+    licenseDetails.appendChild()
   }
+
