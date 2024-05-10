@@ -40,25 +40,34 @@
     </nav>
 </div>
 <div class="main">
+  <h1 style="text-align: center; font-family: fantasy;">Welcome to Licerco</h1>
+  <div class="row">
+  <div class="col-md-6">
+  <img src="/Licerco/images/desk.jpg" alt="" id="side_img">
+  </div>
   
-  <h1 align="center">Welcome to licerco</h1>
+  <div class="col-md-6">
   <div class="form_body">
   <form >
     <h1>Create Account</h1>
     <label > Full Name:</label><br>
-    <input type="text" class="inputbox">
+    <input type="text" class="inputbox" id="name">
     <label >Email:</label><br>
-    <input type="email" class="inputbox"><br><br>
+    <input type="email" class="inputbox" id="email"><br><br>
     <label >Phone No.:</label><br>
-    <input type="number" class="inputbox"><br><br>
+    <input type="number" class="inputbox" id="phone"><br><br>
     <label >Password:</label><br>
-    <input type="password" class="inputbox"><br><br>
+    <input type="password" class="inputbox" id="password"><br><br>
     <label > Confirm Password:</label><br>
-    <input type="password" class="inputbox"><br><br>
-    <button type="submit">Register</button>
+    <input type="password" class="inputbox" id="cpass"><br><br>
+    <button type="button" id="registerButton">Register</button>
     <p>Have an account?</p>
     <a href="/Licerco/login.html">Signin</a>
   </form>
   </div>
-  </div>
+  </div>
 </div>
+</div>
+<script src="signup.js"></script>
+</body>
+</html>
