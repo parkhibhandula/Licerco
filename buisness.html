@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -74,7 +74,7 @@
             </div>
            </div>
            <label>Business Type</label>
-           <select name="busitype">
+           <select name="busitype" id="busitype">
             <option value="Retail shops">Retail shops</option>
             <option value="Restaurants">Restaurants</option>
             <option value="Hotels">Hotels</option>
@@ -150,5 +150,167 @@
           <a href="license.html"><button id="submit">Submit</button></a>
         </div>
     </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Buisness.css">
+</head>
+<body>
+    <div class="contain">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/Licerco/index.html"><img src="/Licerco/images/LLco3.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Licerco/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Licerco/index.html#cards">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Licerco/index.html#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Licerco/index.html#work">How it works</a>
+              </li>
+            </ul>
+            <div class="button">
+                <a href="/Licerco/login.html"><button type="button" id="login">Login</button></a>
+           <a href="/Licerco/signup.html"> <button type="button " id="signup">Signup</button></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="main">
+       <div class="row">
+        <div class="col-md-6">
+          <div class="detail">
+            <h3>BUSINESS REGISTRATION FORM</h3>
+            <h5>Enter your Business details here</h5>
+            <label>Business Owner</label>
+            <input type="text" name="Busiown">
+            <label>Business Name</label>
+            <input type="text" name="Businame">
+            <label>Contact No.</label>
+            <input type="tel" name="Busitel">
+            <label>Email</label>
+            <input type="email" name="Busiemail">
+            <label>Address</label>
+            <input type="text" name="add1" placeholder="Sreet address Line 1">
+            <input type="text" name="add1"  placeholder="Sreet address Line 2">
+
+           <div class="row">
+            <div class="col-md-6">
+              <input type="text" name="city" placeholder="city">
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="state" placeholder="state">
+            </div>
+           </div>
+
+           <div class="row">
+            <div class="col-md-6">
+              <input type="text" name="code" placeholder="zip code">
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="country" placeholder="country">
+            </div>
+           </div>
+           <label>Business Type</label>
+           <select name="busitype" id="busitype">
+            <option value="Retail shops">Retail shops</option>
+            <option value="Restaurants">Restaurants</option>
+            <option value="Hotels">Hotels</option>
+            <option value="Beauty salons">Beauty salons</option>
+            <option value="Manufacturing units">Manufacturing units</option>
+            <option value="Warehouses">Warehouses</option>
+            <option value="Shopping malls">Shopping malls</option>
+            <option value="Manufacturing plants">Manufacturing plants</option>
+            <option value="Hospitals">Hospitals</option>
+            <option value="Educational institutions">Educational institutions</option>
+            <option value="Entertainment venues">Entertainment venues</option>
+            <option value="Clinics">Clinics</option>
+            <option value="Pharmacies">Pharmacies</option>
+            <option value="Food processing units">Food processing units</option>
+            <option value="Childcare centers">Childcare centers</option>
+            <option value="Fitness centers">Fitness centers</option>
+            <option value="Petrol pump">Petrol pump</option>
+            <option value="Food manufacturing units">Food manufacturing units</option>
+            <option value="Catering services">Catering services</option>
+            <option value="Food transportation businesses">Food transportation businesses</option>
+            <option value="Street food vendors">Street food vendors</option>
+            <option value="Bars">Bars</option>
+            <option value="Liquor stores">Liquor stores</option>
+            <option value="Clubs">Clubs</option>
+            <option value="Event organizers">Event organizers</option>
+            <option value="Logistics companies">Logistics companies</option>
+            <option value="Trucking services">Trucking services</option>
+            <option value="Bus operators">Bus operators</option>
+            <option value="Taxi services">Taxi services</option>
+            <option value="Tour operators">Tour operators</option>
+            <option value="Vehicle rental businesses">Vehicle rental businesses</option>
+            <option value="Construction contractors">Construction contractors</option>
+            <option value="Real estate developers">Real estate developers</option>
+            <option value="Civil engineering firms">Civil engineering firms</option>
+            <option value="Architects">Architects</option>
+            <option value="Renovation contractors">Renovation contractors</option>
+            <option value="Interior design firms">Interior design firms</option>
+            <option value="Cinemas">Cinemas</option>
+            <option value="Amusement parks">Amusement parks</option>
+            <option value="Event management companies">Event management companies</option>
+            <option value="Nightclubs">Nightclubs</option>
+            <option value="Festivals">Festivals</option>
+            <option value="Trade shows">Trade shows</option>
+            <option value="Sporting events">Sporting events</option>
+            <option value="Cultural events">Cultural events</option>
+            <option value="Charity fundraisers">Charity fundraisers</option>
+            <option value="Parades">Parades</option>
+            <option value="Public gatherings">Public gatherings</option>
+          </select>
+          
+          <label>Business Structure</label>
+          <select name="busistruct" id="busistruct">
+            <option value="Sole Proprietorship">Sole Proprietorship</option>
+            <option value="Partnership">Partnership</option>
+            <option value="Limited Liability Company (LLC)">Limited Liability Company (LLC)</option>
+            <option value="Corporation">Corporation</option>
+            <option value="S Corporation">S Corporation</option>
+            <option value="Cooperative">Cooperative</option>
+            <option value="Nonprofit Organization">Nonprofit Organization</option>
+            <option value="Trust">Trust</option>
+            <option value="Limited Liability Partnership (LLP)">Limited Liability Partnership (LLP)</option>
+            <option value="Professional Corporation">Professional Corporation</option>
+            <option value="Professional Limited Liability Company (PLLC)">Professional Limited Liability Company (PLLC)</option>
+          </select>
+          <label>Business Size</label>
+          <select name="busisize" id="busisize">
+            <option value="Micro">Micro</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+          </select>
+          <button type="button" id="submit" onclick="showLicenses()">Submit</button>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <img src="/Licerco/images/idea.jpg" height="60%" width="90%">
+          <div class="container" id="licenseDetails" style="margin-top: 10%;"></div>
+        </div>
+       </div>
+    </div>
+   <script src="business.js"></script>
 </body>
 </html>
